@@ -97,15 +97,16 @@ void readInput(string requests_path, string workers_path) {
 
 	
 	//Comment out this code to read the time-dependent road network stored in 'tgraph_path' from Constants.h and store it in another file for a faster run.
-	/***************
+	
+	/*
 	TDGT tree;
 	tree.buildTree();
 
-	std::ofstream outFile("/home/aadityamukherjee/Desktop/Insertion-Operator/chengdu_tdgt.txt");
+	std::ofstream outFile("../Data/Cainiao/shanghai_tdgt.txt");
 	write_TDGT(outFile,tree);
 	outFile.close();  
+	*/
 	
-	****************/
 
    //Read the TD-G-Tree when it has already been created and stored in a file on your PC. 
    cout << "begin tree" <<endl;
