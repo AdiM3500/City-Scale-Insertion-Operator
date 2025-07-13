@@ -1,0 +1,2 @@
+*.txt filter=lfs diff=lfs merge=lfs -text
+Data/Cainiao/cainiao_tdgt.txt filter=lfs diff=lfs merge=lfs -text
